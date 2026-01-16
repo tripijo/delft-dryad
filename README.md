@@ -1,6 +1,6 @@
 # Delft-Dryad
-Making an agile drone that hopefully one day will be able to take videos of people in complex enviroments .</br>
-This is an TU Delft [RSA](https://rsadelft.nl/) project that was unveiled on Q3 project meeting.
+An autonomous drone project leveraging the STM32N6 (Neural-ART NPU) as an AI companion computer. This project implements real-time person detection using TinyYOLO to drive autonomous Yaw/Gimbal control via MAVLink/MSP. Designed for micro-UAVs requiring high-performance edge inference with a low power footprint.</br>
+This is an TU Delft [RSA](https://rsadelft.nl/) project that was unveiled on a 2026 Q3 project evening.
 ## Objectives
 1. Make a drone that uses custom AI model for person tracking
 2. Able to show agility with dodging obstacles while not losing track of the person
